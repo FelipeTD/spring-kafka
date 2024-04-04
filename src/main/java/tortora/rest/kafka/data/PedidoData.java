@@ -8,6 +8,16 @@ public class PedidoData {
     private String nomeProduto;
     private BigDecimal valor;
 
+    public PedidoData() {
+        super();
+    }
+
+    public PedidoData(String codigo, String nomeProduto, BigDecimal valor) {
+        this.codigo = codigo;
+        this.nomeProduto = nomeProduto;
+        this.valor = valor;
+    }
+
     public String getCodigo() {
         return codigo;
     }
@@ -41,9 +51,4 @@ public class PedidoData {
                 '}';
     }
 
-    public PedidoData(String codigo, String nomeProduto, BigDecimal valor) {
-        this.codigo = codigo;
-        this.nomeProduto = nomeProduto;
-        this.valor = valor;
-    }
 }

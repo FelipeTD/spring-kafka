@@ -1,2 +1,2 @@
-# spring-kafka
-Projeto com integração entre o Spring e Kafka
+# Spring com Kafka
+- Projeto com integração entre o Spring e Kafka
